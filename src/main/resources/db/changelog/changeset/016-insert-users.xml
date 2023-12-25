@@ -1,0 +1,41 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.10.xsd">
+
+    <changeSet id="016-insert-users" author="denmit">
+        <insert tableName="users">
+            <column name="name" value="Den"/>
+            <column name="email" value="admin1_mogilev@yopmail.com"/>
+            <column name="password" value="$2a$10$fAhhMrd4fKSawqNjJGse5ej/.zwAIFnsDv4JVLrchTWtBmPFliuJG"/>
+            <column name="role" value="ROLE_ADMIN"/>
+        </insert>
+        <insert tableName="users">
+            <column name="name" value="Peter"/>
+            <column name="email" value="peter_mogilev@yopmail.com"/>
+            <column name="password" value="$2a$10$Jz/fkQ8zhUxIa0ANiDQJzuAwijen4gUPWN72Bv0QjWgP.c8B9c2Ue"/>
+            <column name="role" value="ROLE_BUYER"/>
+        </insert>
+        <insert tableName="users">
+            <column name="name" value="Asya"/>
+            <column name="email" value="asya_mogilev@yopmail.com"/>
+            <column name="password" value="$2a$10$9IDpH95MdvX0oxFWM92w1.qRpzoaNNunEqq5jD2ovXcps9IPCYA1G"/>
+            <column name="role" value="ROLE_BUYER"/>
+        </insert>
+        <insert tableName="users">
+            <column name="name" value="Jimmy"/>
+            <column name="email" value="admin2_mogilev@yopmail.com"/>
+            <column name="password" value="$2a$10$BtSb1vIX7synMgLIKximAeNZlpTAae4kZlZMR9xx7wxXZK2s0B4dC"/>
+            <column name="role" value="ROLE_ADMIN"/>
+        </insert>
+        <insert tableName="users">
+            <column name="name" value="Maricel"/>
+            <column name="email" value="maricel_mogilev@yopmail.com"/>
+            <column name="password" value="$2a$10$xU0DpNS3QYJR1GFEoKu2p.VCAGcpt70KL239ZXz90ICe1nOpiBofa"/>
+            <column name="role" value="ROLE_BUYER"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>
+
+

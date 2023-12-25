@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd"
+        logicalFilePath="db/changelog.xml">
+
+    <include file="changeset/001-user_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/002-goods_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/003-order_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/004-attachment_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/005-comment_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/006-feedback_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/007-history_id_seq.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/008-create-users.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/009-create-goods.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/010-create-orders.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/011-create-attachment.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/012-create-comment.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/013-create-feedback.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/014-create-history.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/015-create-order_good.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/016-insert-users.xml" relativeToChangelogFile="true"/>
+    <include file="changeset/017-insert-goods.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
+
