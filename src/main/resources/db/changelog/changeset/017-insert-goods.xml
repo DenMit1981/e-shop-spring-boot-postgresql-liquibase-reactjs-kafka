@@ -1,0 +1,92 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.10.xsd">
+
+    <changeSet id="017-insert-goods" author="denmit">
+        <insert tableName="goods">
+            <column name="title" value="Book"/>
+            <column name="price" value="5.50"/>
+            <column name="quantity" value="4"/>
+            <column name="description" value="This is a book"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Phone"/>
+            <column name="price" value="100.00"/>
+            <column name="quantity" value="1"/>
+            <column name="description" value="This is a phone"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Juice"/>
+            <column name="price" value="2.00"/>
+            <column name="quantity" value="7"/>
+            <column name="description" value="This is a juice"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Phone"/>
+            <column name="price" value="200.00"/>
+            <column name="quantity" value="3"/>
+            <column name="description" value="This is a phone"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Beer"/>
+            <column name="price" value="1.50"/>
+            <column name="quantity" value="10"/>
+            <column name="description" value="This is a beer"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Computer"/>
+            <column name="price" value="500.00"/>
+            <column name="quantity" value="2"/>
+            <column name="description" value="This is a computer"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Whisky"/>
+            <column name="price" value="4.20"/>
+            <column name="quantity" value="7"/>
+            <column name="description" value="This is a whisky"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Hat"/>
+            <column name="price" value="23.50"/>
+            <column name="quantity" value="9"/>
+            <column name="description" value="This is a hat"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Umbrella"/>
+            <column name="price" value="35.50"/>
+            <column name="quantity" value="16"/>
+            <column name="description" value="This is an umbrella"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Xylophone"/>
+            <column name="price" value="10.00"/>
+            <column name="quantity" value="5"/>
+            <column name="description" value="This is a xylophone"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Jeans"/>
+            <column name="price" value="45.35"/>
+            <column name="quantity" value="22"/>
+            <column name="description" value="These are jeans"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Vase"/>
+            <column name="price" value="19.36"/>
+            <column name="quantity" value="32"/>
+            <column name="description" value="This is a vase"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Phone"/>
+            <column name="price" value="900.00"/>
+            <column name="quantity" value="9"/>
+            <column name="description" value="This is a phone"/>
+        </insert>
+        <insert tableName="goods">
+            <column name="title" value="Ball"/>
+            <column name="price" value="3.85"/>
+            <column name="quantity" value="7"/>
+            <column name="description" value="This is a ball"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
